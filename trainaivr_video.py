@@ -25,7 +25,7 @@ from transformers import CLIPTextModel, CLIPTokenizer
 
 from aivr_video.models.unet import UNet3DConditionModel
 from aivr_video.data.dataset import TuneAVideoDataset
-from aivr_video.pipelines.pipeline_tuneavideo import TuneAVideoPipeline
+from aivr_video.pipelines.pipeline import TuneAVideoPipeline
 from aivr_video.util import save_videos_grid, ddim_inversion
 from einops import rearrange
 
