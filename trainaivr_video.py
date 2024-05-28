@@ -28,11 +28,7 @@ from aivr_video.data.dataset import TuneAVideoDataset
 from aivr_video.pipelines.pipeline import TuneAVideoPipeline
 from aivr_video.util import save_videos_grid, ddim_inversion
 from einops import rearrange
-
-
-# Will error if the minimal version of diffusers is not installed. Remove at your own risks.
 check_min_version("0.10.0.dev0")
-
 logger = get_logger(__name__, log_level="INFO")
 
 
